@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Home from './routes/Home';
 import About from './routes/About';
-import Pricing from './routes/Pricing';
-import Solution from './routes/Solution';
+import Projects from './routes/projects';
+import Experience from './routes/Experience';
 
 import { Route, Routes} from "react-router-dom";
 
@@ -11,10 +11,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Pricing" element={<Pricing />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Projects" element={<Projects />} />
         <Route path="/About" element={<About />} />
-        <Route path="/Solution" element={<Solution />} />
+        <Route path="/Experience" element={<Experience />} />
       </Routes>
     </>
   );

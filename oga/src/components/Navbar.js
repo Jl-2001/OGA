@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="header">
         <Link to="/">
-            <h1> Office Genie</h1>
+            <h1> Jorge Lazaro</h1>
         </Link>
         <ul className={click ? "nav-menu active" :
         "nav-menu"}>
@@ -25,10 +25,10 @@ const Navbar = () => {
                 <Link to="/About">About</Link>
             </li>
             <li>
-                <Link to="/Pricing">Pricing</Link>
+                <Link to="/projects">Projects</Link>
             </li>
             <li>
-                <Link to="/Solution">Solution</Link>
+                <Link to="/Experience">Experience</Link>
             </li>
         </ul>
         <div className="hamburger" onClick=
